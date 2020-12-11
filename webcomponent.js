@@ -540,7 +540,6 @@
 	
 
     customElements.define('com-sap-sample-squares', class Squares extends HTMLElement {
-		_datasource = undefined;
 
 		constructor() {
 			super(); 
@@ -613,7 +612,6 @@
 		
 		async setSquares(DataSource dataSource){
 			await console.log(dataSource);
-			_datasource = dataSource;
 			/*
 			var ks01 = this._shadowRoot.querySelector("#KS01");
 			console.log(ks01);
