@@ -539,7 +539,7 @@
 	
 	
 
-    customElements.define('com-sap-sample-squares', class Squares extends HTMLElement {
+    customElements.define('com-sap-sample-squaresds', class SquaresDS extends HTMLElement {
 
 		constructor() {
 			super(); 
