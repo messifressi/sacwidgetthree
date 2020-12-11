@@ -610,7 +610,7 @@
 			console.log(square5);*/
 		}
 		
-		async function setSquares(DataSource dataSource){
+		async function setSquares(dataSource){
 			await console.log(dataSource);
 			/*
 			var ks01 = this._shadowRoot.querySelector("#KS01");
